@@ -16,24 +16,29 @@ The primary objective is to develop a binary classification model that predicts 
 
 # Workflow
 **Data Preprocessing**
+
 • Handle missing values
 • Encode categorical variables
 • Remove outliers
 • Apply SMOTE for class balancing
 
 **Exploratory Data Analysis (EDA)**
+
 • Understand variable distributions
 • Study medication and readmission correlations
 
 **Model Building**
+
 • Train and compare multiple machine learning models
 • Perform hyperparameter tuning
 
 **Evaluation**
+
 • Use confusion matrix, ROC curve, accuracy, precision, recall, and F1 score
 • Visualize feature importance
 
 **Model Saving**
+
 • Save the best model for deployment
 
 ## Results & Insights
