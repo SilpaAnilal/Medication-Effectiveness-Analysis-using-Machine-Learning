@@ -14,7 +14,7 @@ The primary objective is to develop a binary classification model that predicts 
 
 • Features: 50+ attributes including demographics, diagnoses, medications, lab      results, etc.
 
-# 🚀 Project Pipeline
+# Project Pipeline
 1️⃣ **Data Preprocessing**
 
 • Handling missing values
