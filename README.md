@@ -76,13 +76,13 @@ The primary objective is to develop a binary classification model that predicts 
 • Integrate SHAP values for enhanced model interpretability.
 
 ## Technologies Used
-Language: Python
+**Language**: Python
 
-Libraries: NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+**Libraries**: NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
 
-Balancing: SMOTE
+**Balancing**: SMOTE
 
-Visualization: Seaborn, Matplotlib
+**Visualization**: Seaborn, Matplotlib
 
-Model Deployment (Future): Streamlit/Flask
+**Model Deployment (Future)**: Streamlit/Flask
 
