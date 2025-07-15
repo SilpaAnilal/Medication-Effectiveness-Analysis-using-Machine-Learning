@@ -33,7 +33,7 @@ The primary objective is to develop a binary classification model that predicts 
 
 3️⃣ **Model Building & Evaluation**
 
-**Models used:**Logistic Regression,Decision Tree,Random Forest,XGBoost,Stacking Ensemble
+**Models used:** Logistic Regression,Decision Tree,Random Forest,XGBoost,Stacking Ensemble
 
 **Evaluation Metrics**:Accuracy,Precision,Recall,F1-Score,ROC-AUC Curve,Confusion Matrix
 
