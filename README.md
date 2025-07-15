@@ -35,7 +35,7 @@ The primary objective is to develop a binary classification model that predicts 
 
 **Models used:** Logistic Regression,Decision Tree,Random Forest,XGBoost,Stacking Ensemble
 
-**Evaluation Metrics**:Accuracy,Precision,Recall,F1-Score,ROC-AUC Curve,Confusion Matrix
+**Evaluation Metrics**: Accuracy,Precision,Recall,F1-Score,ROC-AUC Curve,Confusion Matrix
 
 4️⃣ **Hyperparameter Tuning**
 
