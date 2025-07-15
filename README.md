@@ -8,7 +8,8 @@ Hospital readmissions are a major concern in healthcare, particularly for chroni
 The primary objective is to develop a binary classification model that predicts whether a diabetic patient will be readmitted within 30 days after discharge, based on patient details, medical history, medications, and hospital encounters.
 
 # 🗃️ Dataset
-• Source: Diabetic Data (UCI Machine Learning Repository)
+• Source: Diabetic Data[UCI Diabetes Dataset](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+Hospitals+for+Years+1999-2008)
+ (UCI Machine Learning Repository)
 
 • Records: 101,766 hospital admissions
 
