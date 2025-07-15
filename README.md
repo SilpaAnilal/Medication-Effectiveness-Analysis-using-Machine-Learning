@@ -7,43 +7,34 @@ Hospital readmissions are a major concern in healthcare, particularly for chroni
 # Problem Statement
 The primary objective is to develop a binary classification model that predicts whether a diabetic patient will be readmitted within 30 days after discharge, based on patient details, medical history, medications, and hospital encounters.
 
-# 🗃️ Dataset
+# 📂 Dataset
 • Source: [Diabetic Data (UCI Machine Learning Repository)](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+Hospitals+for+Years+1999-2008)
 
 • Records: 101,766 hospital admissions
 
 • Features: 50+ attributes including demographics, diagnoses, medications, lab      results, etc.
 
-# Project Pipeline
-1️⃣ **Data Preprocessing**
+# Workflow
+**Data Preprocessing**
+• Handle missing values
+• Encode categorical variables
+• Remove outliers
+• Apply SMOTE for class balancing
 
-• Handling missing values
+**Exploratory Data Analysis (EDA)**
+• Understand variable distributions
+• Study medication and readmission correlations
 
-• Encoding categorical variables
+**Model Building**
+• Train and compare multiple machine learning models
+• Perform hyperparameter tuning
 
-• Outlier detection and removal
+**Evaluation**
+• Use confusion matrix, ROC curve, accuracy, precision, recall, and F1 score
+• Visualize feature importance
 
-• Balancing dataset using SMOTE
-
-2️⃣ **Exploratory Data Analysis (EDA)**
-
-• Univariate and bivariate analysis
-
-• Visualizations of medication impact on readmission
-
-3️⃣ **Model Building & Evaluation**
-
-**Models used:** Logistic Regression,Decision Tree,Random Forest,XGBoost,Stacking Ensemble
-
-**Evaluation Metrics**: Accuracy,Precision,Recall,F1-Score,ROC-AUC Curve,Confusion Matrix
-
-4️⃣ **Hyperparameter Tuning**
-
-• Performed using Grid Search for optimal model performance
-
-5️⃣ **Feature Importance**
-
-• Visualized using XGBoost Feature Importance plots
+**Model Saving**
+• Save the best model for deployment
 
 ## Results & Insights
 
@@ -57,17 +48,17 @@ The primary objective is to develop a binary classification model that predicts 
 
 ## Limitations
 
-• Dataset may contain outdated or hospital-specific coding practices.
+• Dataset may not reflect current clinical guidelines
 
 • Imbalanced classes required heavy use of balancing techniques, which may affect real-world generalization.
 
-• No time-series analysis was performed (data was static).
+• Lack of time-series data limits sequential pattern analysis(data is static).
 
 • Medication adherence outside hospital visits is unknown.
 
 ## Future Work
 
-• Incorporate deep learning models (LSTM for sequential data)
+•  Incorporate deep learning models (e.g., LSTM for sequential health data)
 
 • Use real-time patient monitoring data
 
